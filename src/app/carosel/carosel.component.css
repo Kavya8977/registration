@@ -1,0 +1,5 @@
+.carosel-item img{
+    height:500px;
+    width:300%;
+    object-fit: cover;
+}

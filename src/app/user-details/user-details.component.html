@@ -1,0 +1,51 @@
+<app-header></app-header>
+<div class="row">
+    <!-- Navbar Column -->
+    <div class="col-2 navbar d-flex">
+        <app-navbar></app-navbar>
+    </div>
+
+    <!-- Main Content Column -->
+    <div class="col-10 mt-4 content d-flex flex-column">
+        <h3 class="text-center">Visiting User Details:</h3>
+        <div class="card">
+            <div class="card-body">
+                <div class="container border p-3 bg-light">
+                    <!-- User Id -->
+                    <div class="row border-bottom border-primary pb-2 bg-info text-white">
+                        <div class="col border border-primary">
+                            <label><b>User Id:</b></label> {{users.id}}
+                        </div>
+                    </div>
+
+                    <!-- Other User Details -->
+                    <div class="row border-bottom border-primary pb-1">
+                        <div class="col border border-primary bg-light text-dark">
+                            <label><b>Name:</b></label> {{users.name}}
+                        </div>
+                        </div>
+                        <div class="row border-bottom border-primary pb-1">
+                        <div class="col border border-primary bg-light text-dark">
+                            <label><b>Email Id:</b></label> {{users.emailId}}
+                        </div>
+                    </div>
+
+                    <div class="row border-bottom border-primary pb-2">
+                        <div class="col border border-primary bg-light text-dark">
+                            <label><b>Phone Number:</b></label> {{users.phoneNumber}}
+                        </div>
+                    </div>
+
+                    <div class="row border-bottom border-primary pb-2">
+                        <div class="col border border-primary bg-light text-dark">
+                            <label><b>Password:</b></label> {{users.password}}
+                        </div>
+                        <a href="" routerLink="/user-list" routerLinkActive="active">
+                            <button class="btn btn-info" type="submit">back</button></a>
+                        <pre></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,55 @@
+<div class="col-md-6  offset-md-3">
+    <h3>Create Company Details</h3>
+    <form (ngSubmit)="onSubmit()">
+        <div class="card">
+            <div class="card-body">
+        <div class="form-group">
+            <label for="floatingName">Company Name</label>
+            <input type="text" name="fullname" class="form-control" id="floatingName" [(ngModel)]="company.cName"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingInput">Email Id</label>
+            <input type="eMail" name="eMail" class="form-control" id="floatingInput" [(ngModel)]="company.eMail"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingNumber">Contact Number</label>
+            <input type="number" name="Phone Number" class="form-control" id="floatingNumber" [(ngModel)]="company.contactNumber"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingaddress">City</label>
+            <input type="textarea" name="Address" class="form-control" id="floatinggender" [(ngModel)]="company.city"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingaddress">Address</label>
+            <input type="textarea" name="Address" class="form-control" id="floatinggender" [(ngModel)]="company.address"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingName">Pincode</label>
+            <input type="number" name="fullname" class="form-control" id="floatingName" [(ngModel)]="company.pinCode"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingName">State</label>
+            <input type="text" name="fullname" class="form-control" id="floatingName" [(ngModel)]="company.state"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingName">WebAddress</label>
+            <input type="textarea" name="fullname" class="form-control" id="floatingName" [(ngModel)]="company.webAddress"  >
+        </div><pre></pre>
+        <div class="form-group form-check-inline">
+            <label for="floatingName">Active:&nbsp;</label> &nbsp;&nbsp;&nbsp;
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="YES" [(ngModel)]="company.active">
+            <label class="form-check-label" for="inlineRadio1">YES</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="NO" [(ngModel)]="company.active">
+            <label class="form-check-label" for="inlineRadio2">NO</label>
+          </div>
+        <pre></pre>
+        <button class="btn btn-success" type="submit">Submit</button>&nbsp;&nbsp;
+        <a href="" routerLink="/company-list" routerLinkActive="active">
+            <button class="btn btn-info" type="submit">back</button>
+        </a> <pre></pre>
+        </div>
+        </div>
+    </form>
+    </div>

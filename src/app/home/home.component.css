@@ -1,0 +1,28 @@
+/* .row {
+    margin-top: 20px;
+} */
+
+/* .content {
+    margin-top: 60px;
+    margin-left: 250px;
+    padding: 20px;
+} */
+
+marquee {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-top: 50px;
+     /* Adjust margin to accommodate fixed header */
+    /* z-index: 1; */
+    /* width: 100%; */
+    /* display: block; */
+}
+
+/* .background-container {
+    min-height: 100vh; 
+    background-image: url('/assets/imge1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+} */

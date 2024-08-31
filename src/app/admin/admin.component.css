@@ -1,0 +1,73 @@
+body {
+    background-image: url('../../assets/imge.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card-header {
+    background-color: #ff9800; /* Replace $pink-600 with an actual color value */
+    color: white;
+    padding: 20px;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+.card-title {
+    margin: 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    border-radius: 0.25rem;
+    box-shadow: none;
+    border: 1px solid #ced4da;
+}
+
+.form-check-label {
+    margin-top: 10px; /* Use .form-check-label for Bootstrap 4+ */
+}
+
+.btn-info {
+    background-color:aliceblue;
+    border-color: #007bff;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin-top: 20px;
+    }
+
+    .card-header {
+        padding: 15px;
+    }
+
+    .card-title {
+        font-size: 24px;
+    }
+
+    .btn-info {
+        font-size: 14px;
+        padding: 8px;
+    }
+}

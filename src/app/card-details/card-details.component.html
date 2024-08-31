@@ -1,0 +1,87 @@
+<app-header></app-header>
+<div class="row">
+<div class="col-1 navbar d-felx">
+<app-navbar></app-navbar></div>
+<body>
+<div class="col-11 mt-4 content d-felx">
+<h3 class="text-center">Visiting Card Details:</h3>
+<div class="card d-felx">
+    <div class="card-body">
+        <div class="container border p-3 bg-light">
+            <!-- First Row for Card Id -->
+            <div class="row border-bottom pb-2 bg-primary text-white">
+                <div class="col border">
+                    <label><b>Card Id:</b></label> {{card.cardId}}
+                </div>
+            </div>
+
+            <!-- Other Details in Rows -->
+            <div class="row border-bottom pb-2">
+                <div class="col border bg-light text-dark">
+                    <label><b>Card Name:</b></label> {{card.name}}
+                </div>
+                <div class="col border bg-light text-dark">
+                    <label><b>Card Type:</b></label> {{card.cardType}}
+                </div>
+            </div>
+
+            <div class="row border-bottom pb-2">
+                <div class="col border bg-light text-dark">
+                    <label><b>Company Name:</b></label> {{card.companyName}}
+                </div>
+                <div class="col border bg-light text-dark">
+                    <label><b>Department:</b></label> {{card.department}}
+                </div>
+            </div>
+
+            <div class="row border-bottom pb-2">
+                <div class="col border bg-light text-dark">
+                    <label><b>Designation:</b></label> {{card.designation}}
+                </div>
+                <div class="col border bg-light text-dark">
+                    <label><b>Residential No:</b></label> {{card.residentialNumber}}
+                </div>
+            </div>
+
+            <div class="row border-bottom pb-2">
+                <div class="col border bg-light text-dark">
+                    <label><b>Mobile No:</b></label> {{card.mobileNumber}}
+                </div>
+                <div class="col border bg-light text-dark">
+                    <label><b>Email Id:</b></label> {{card.emailId}}
+                </div>
+            </div>
+
+            <div class="row border-bottom pb-2">
+                <div class="col border bg-light text-dark">
+                    <label><b>Off. Email Id:</b></label> {{card.offEmailId}}
+                </div>
+                <div class="col border bg-light text-dark">
+                    <label><b>Address:</b></label> {{card.address}}
+                </div>
+            </div>
+
+            <div class="row border-bottom pb-2">
+                <div class="col border bg-light text-dark">
+                    <label><b>Off. Website:</b></label> {{card.offWebsite}}
+                </div>
+                <div class="col border bg-light text-dark">
+                    <label><b>Branches:</b></label> {{card.branches}}
+                </div>
+            </div>
+
+            <div class="row border-bottom pb-2">
+                <div class="col border bg-light text-dark">
+                    <label><b>Partner:</b></label> {{card.partner}}
+                </div>
+            </div>
+        &nbsp;&nbsp;
+        <a href="" routerLink="/home" routerLinkActive="active">
+          <button class="btn btn-info mb-3" type="submit">back</button>
+      </a> <pre></pre>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</div>

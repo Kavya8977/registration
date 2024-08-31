@@ -1,0 +1,153 @@
+<app-header></app-header>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-2">
+      <app-navbar></app-navbar>
+    </div>
+    <div class="col-10">
+      <div class="content">
+       
+        <div class="card mt-5">
+            <h3 class="text-center">Visiting Organization Details:</h3>
+          <div class="card-body">
+            <div class="container border p-3 bg-light">
+              <!-- First Row for Card Id -->
+              <div class="row border-bottom pb-2 bg-info text-white">
+                <div class="col">
+                  <label><b>Organization Name:</b></label> {{organization.organizationName}}
+                </div>
+              </div>
+
+              <!-- Other Details in Rows -->
+              <div class="row border-bottom pb-2">
+                <div class="col bg-light text-dark">
+                  <label><b>Address1:</b></label> {{organization.address1}}
+                </div>
+                <div class="col bg-light text-dark">
+                  <label><b>Address2:</b></label> {{organization.address2}}
+                </div>
+              </div>
+
+              <div class="row border-bottom pb-2">
+                <div class="col bg-light text-dark">
+                  <label><b>Place:</b></label> {{organization.place}}
+                </div>
+                <div class="col bg-light text-dark">
+                  <label><b>PinCode:</b></label> {{organization.pincode}}
+                </div>
+              </div>
+
+              <div class="row border-bottom pb-2">
+                <div class="col bg-light text-dark">
+                  <label><b>TeleEx:</b></label> {{organization.teleEx}}
+                </div>
+                <div class="col bg-light text-dark">
+                  <label><b>Phone Number:</b></label> {{organization.phoneNumber}}
+                </div>
+              </div>
+
+              <div class="row border-bottom pb-2">
+                <div class="col bg-light text-dark">
+                  <label><b>Fax:</b></label> {{organization.fax}}
+                </div>
+                <div class="col bg-light text-dark">
+                  <label><b>Email Id:</b></label> {{organization.email}}
+                </div>
+              </div>
+
+              <div class="row border-bottom pb-2">
+                <div class="col bg-light text-dark">
+                  <label><b>Grams:</b></label> {{organization.grams}}
+                </div>
+                <div class="col bg-light text-dark">
+                  <label><b>Register Number:</b></label> {{organization.registerNumber}}
+                </div>
+              </div>
+
+              <div class="row border-bottom pb-2">
+                <div class="col bg-light text-dark">
+                  <label><b>Date Of Reg:</b></label> {{organization.dateOfReg}}
+                </div>
+                <div class="col bg-light text-dark">
+                  <label><b>Inception Date:</b></label> {{organization.inceptionDate}}
+                </div>
+              </div>
+
+              <div class="row border-bottom pb-2">
+                <div class="col bg-light text-dark">
+                  <label><b>CST Rate:</b></label> {{organization.cSTRate}}
+                </div>
+                <div class="col bg-light text-dark">
+                  <label><b>GST Number:</b></label> {{organization.gSTNumber}}
+                </div>
+              </div>
+
+              <div class="row border-bottom pb-2">
+                <div class="col bg-light text-dark">
+                  <label><b>CE Code:</b></label> {{organization.cECode}}
+                </div>
+                <div class="col bg-light text-dark">
+                  <label><b>CER Number:</b></label> {{organization.cERNumber}}
+                </div>
+              </div>
+
+              <div class="row border-bottom pb-2">
+                <div class="col bg-light text-dark">
+                  <label><b>DRCL Number:</b></label> {{organization.dRCLNumber}}
+                </div>
+                <div class="col bg-light text-dark">
+                  <label><b>From Date:</b></label> {{organization.fromDate}}
+                </div>
+              </div>
+
+              <div class="row border-bottom pb-2">
+                <div class="col bg-light text-dark">
+                  <label><b>Logo:</b></label> {{organization.logo}}
+                </div>
+                <div class="col bg-light text-dark">
+                  <label><b>TDS Account:</b></label> {{organization.tDSAccount}}
+                </div>
+              </div>
+
+              <div class="row border-bottom pb-2">
+                <div class="col bg-light text-dark">
+                  <label><b>PANGIR:</b></label> {{organization.pANGIR}}
+                </div>
+                <div class="col bg-light text-dark">
+                  <label><b>PANEXT:</b></label> {{organization.pANEXT}}
+                </div>
+              </div>
+
+              <div class="row border-bottom pb-2">
+                <div class="col bg-light text-dark">
+                  <label><b>EXIM Code:</b></label> {{organization.eXIMCode}}
+                </div>
+                <div class="col bg-light text-dark">
+                  <label><b>Excise Duty Rate:</b></label> {{organization.exciseDutyRate}}
+                </div>
+              </div>
+
+              <div class="row border-bottom pb-2">
+                <div class="col bg-light text-dark">
+                  <label><b>DRCL Number:</b></label> {{organization.dRCLNumber}}
+                </div>
+                <div class="col bg-light text-dark">
+                  <label><b>From Date:</b></label> {{organization.fromDate}}
+                </div>
+              </div>
+
+              <div class="row mt-3">
+                <div class="col text-center">
+                  <a routerLink="/home" routerLinkActive="active">
+                    <button class="btn btn-info mb-3" type="button">Back</button>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

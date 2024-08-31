@@ -1,0 +1,29 @@
+export class Organization {
+    id:number;
+    organizationName:String;
+    address1:String;
+    address2:String;
+    place:String;
+    pincode:String;
+    teleEx:String;
+    phoneNumber:String;
+    fax:String;
+    grams:String;
+    email:String;
+    registerNumber:String;
+    dateOfReg:String;
+    inceptionDate:String;
+    cSTNumber:String;
+    gSTNumber:String;
+    cECode:String;
+    cERNumber:String;
+    dRCLNumber:String;
+    fromDate:String;
+    logo:String;
+    tDSAccount:String;
+    pANGIR:String;
+    pANEXT:String;
+    eXIMCode:String;
+    cSTRate:String;
+    exciseDutyRate:String;
+}

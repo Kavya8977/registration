@@ -1,0 +1,56 @@
+<app-header></app-header>
+<div class="row">
+    <div class="col-1 navbar d-flex">
+        <app-navbar></app-navbar>
+    </div>
+    <div class="col-11 mt-4 content">
+        <div class="container">
+            <h3 class="text-center">View Company Details</h3>
+            <div class="card">
+                <div class="card-body">
+                    <div class="row border-bottom pb-2">
+                        <div class="col border bg-light text-dark flex-grow-1">
+                            <b>CompanyName:</b> {{company.cName}}
+                        </div>
+                    </div>
+                    <div class="row border-bottom pb-2">
+                        <div class="col border bg-light text-dark">
+                            <b>City:</b> {{company.city}}
+                        </div>
+                        <div class="col border bg-light text-dark">
+                            <b>Address:</b> {{company.address}}
+                        </div>
+                    </div>
+                    <div class="row border-bottom pb-2">
+                        <div class="col border bg-light text-dark">
+                            <b>State:</b> {{company.state}}
+                        </div>
+                        <div class="col border bg-light text-dark">
+                            <b>PinCode:</b> {{company.pinCode}}
+                        </div>
+                    </div>
+                    <div class="row border-bottom pb-2">
+                        <div class="col border bg-light text-dark">
+                            <b>ContactNumber:</b> {{company.contactNumber}}
+                        </div>
+                        <div class="col border bg-light text-dark">
+                            <b>WebAddress:</b> {{company.webAddress}}
+                        </div>
+                    </div>
+                    <div class="row border-bottom pb-2">
+                        <div class="col border bg-light text-dark">
+                            <b>Email Id:</b> {{company.eMail}}
+                        </div>
+                        <div class="col border bg-light text-dark">
+                            <b>Active:</b> {{company.active}}
+                        </div>
+                    &nbsp;&nbsp;
+                    <a href="" routerLink="/home" routerLinkActive="active">
+                      <button class="btn btn-info mb-3" type="submit">back</button>
+                  </a> <pre></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

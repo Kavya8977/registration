@@ -1,0 +1,67 @@
+<div class="col-md-6  offset-md-3">
+    <h3>UpdateCard</h3>
+    <form (ngSubmit)="onSubmit()">
+        <div class="card">
+            <div class="card-body">
+        <div class="form-group">
+            <label for="floatingName">Name</label>
+            <input type="text" name="Name" class="form-control" id="floatingName" [(ngModel)]="card.name"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingName">CompanyName:</label>
+            <input type="text" name="companyName" class="form-control" id="floatingName" [(ngModel)]="card.companyName"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingName">Designation:</label>
+            <input type="text" name="designation" class="form-control" id="floatingName" [(ngModel)]="card.designation"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingName">Department:</label>
+            <input type="text" name="department" class="form-control" id="floatingName" [(ngModel)]="card.department"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingName">Residential Number:</label>
+            <input type="text" name="residentialNumber" class="form-control" id="floatingName" [(ngModel)]="card.residentialNumber"  >
+        </div>
+        
+        <div class="form-group">
+            <label for="floatingInput">MobileNumber</label>
+            <input type="number" name="mobileNumber" class="form-control" id="floatingInput" [(ngModel)]="card.mobileNumber"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingName">EmailId</label>
+            <input type="text" name="emailId" class="form-control" id="floatingName" [(ngModel)]="card.emailId"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingName">Off.EmailId</label>
+            <input type="text" name="OffEmailId" class="form-control" id="floatingName" [(ngModel)]="card.offEmailId"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingName">Address:</label>
+            <input type="text" name="address" class="form-control" id="floatingName" [(ngModel)]="card.address"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingName">Off.Website:</label>
+            <input type="text" name="offWebsite" class="form-control" id="floatingName" [(ngModel)]="card.offWebsite"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingName">Branches:</label>
+            <input type="text" name="branches" class="form-control" id="floatingName" [(ngModel)]="card.branches"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingName">Partner:</label>
+            <input type="text" name="partner" class="form-control" id="floatingName" [(ngModel)]="card.partner"  >
+        </div>
+      
+      
+        
+        <pre></pre>
+        <button class="btn btn-success" type="submit">Submit</button>&nbsp;&nbsp;
+        <a href="" routerLink="/card-list" routerLinkActive="active">
+            <button class="btn btn-info" type="submit">back</button></a>
+        <pre></pre>
+        <pre></pre>
+            </div>
+        </div>
+    </form>
+    </div>

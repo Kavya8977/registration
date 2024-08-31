@@ -1,0 +1,119 @@
+<div class="col-md-6  offset-md-3">
+    <h3>Create Organization Details</h3>
+    <form (ngSubmit)="onSubmit()">
+        <div class="card">
+            <div class="card-body">
+        <div class="form-group">
+            <label for="floatingName">OrganizationName</label>
+            <input type="text" name="fullname" class="form-control" id="floatingName" [(ngModel)]="organizations.organizationName"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingInput">Address1</label>
+            <input type="text" name="address" class="form-control" id="floatingInput" [(ngModel)]="organizations.address1"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingNumber">Address2</label>
+            <input type="text" name="address" class="form-control" id="floatingNumber" [(ngModel)]="organizations.address2"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingaddress">Place</label>
+            <input type="text" name="Address" class="form-control" id="floatinggender" [(ngModel)]="organizations.place"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingaddress">Pincode</label>
+            <input type="number" name="fullname" class="form-control" id="floatinggender" [(ngModel)]="organizations.pincode"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingName">TeleEx</label>
+            <input type="text" name="fullname" class="form-control" id="floatingName" [(ngModel)]="organizations.teleEx"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingName">PhoneNumber</label>
+            <input type="number" name="fullname" class="form-control" id="floatingName" [(ngModel)]="organizations.phoneNumber"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingName">Fax</label>
+            <input type="textarea" name="fullname" class="form-control" id="floatingName" [(ngModel)]="organizations.fax"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingName">Grams</label>
+            <input type="text" name="fullname" class="form-control" id="floatingName" [(ngModel)]="organizations.grams"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingName">Email</label>
+            <input type="email" name="fullname" class="form-control" id="floatingName" [(ngModel)]="organizations.email"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingName">RegisterNumber</label>
+            <input type="number" name="fullname" class="form-control" id="floatingName" [(ngModel)]="organizations.registerNumber"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingName">DateOfReg</label>
+            <input type="textarea" name="fullname" class="form-control" id="floatingName" [(ngModel)]="organizations.dateOfReg"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingInput">InceptionDate</label>
+            <input type="text" name="address" class="form-control" id="floatingInput" [(ngModel)]="organizations.inceptionDate"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingNumber">CSTNumber</label>
+            <input type="number" name="address" class="form-control" id="floatingNumber" [(ngModel)]="organizations.cSTNumber"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingInput">GSTNumber</label>
+            <input type="number" name="address" class="form-control" id="floatingInput" [(ngModel)]="organizations.gSTNumber"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingNumber">CECode</label>
+            <input type="text" name="address" class="form-control" id="floatingNumber" [(ngModel)]="organizations.cECode"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingInput">CERNumber</label>
+            <input type="text" name="address" class="form-control" id="floatingInput" [(ngModel)]="organizations.cERNumber"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingNumber">DRCLNumber</label>
+            <input type="text" name="address" class="form-control" id="floatingNumber" [(ngModel)]="organizations.dRCLNumber"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingInput">FromDate</label>
+            <input type="text" name="address" class="form-control" id="floatingInput" [(ngModel)]="organizations.fromDate"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingNumber">Logo</label>
+            <input type="text" name="address" class="form-control" id="floatingNumber" [(ngModel)]="organizations.logo"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingInput">TDSAccount</label>
+            <input type="text" name="address" class="form-control" id="floatingInput" [(ngModel)]="organizations.tDSAccount"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingNumber">PANGIR</label>
+            <input type="text" name="address" class="form-control" id="floatingNumber" [(ngModel)]="organizations.pANGIR"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingInput">PANEXT</label>
+            <input type="text" name="address" class="form-control" id="floatingInput" [(ngModel)]="organizations.pANEXT"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingNumber">EXIMCode</label>
+            <input type="text" name="address" class="form-control" id="floatingNumber" [(ngModel)]="organizations.eXIMCode"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingInput">CSTRate</label>
+            <input type="text" name="address" class="form-control" id="floatingInput" [(ngModel)]="organizations.cSTRate"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingNumber">ExciseDutyRate</label>
+            <input type="text" name="address" class="form-control" id="floatingNumber" [(ngModel)]="organizations.exciseDutyRate"  >
+        </div>
+     
+       
+        <button class="btn btn-success" type="submit">Submit</button>&nbsp;&nbsp;
+        <a href="" routerLink="/company-list" routerLinkActive="active">
+            <button class="btn btn-info" type="submit">back</button>
+        </a> <pre></pre>
+        </div>
+        </div>
+    </form>
+    </div>

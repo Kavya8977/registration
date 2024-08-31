@@ -1,0 +1,11 @@
+
+.card {
+    margin: auto;
+    width: 50%;
+    margin-top: 50px;
+     
+}
+.card-body {
+    text-align: center;
+    background-color: darkslategray;
+}

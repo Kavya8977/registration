@@ -1,0 +1,10 @@
+.header{
+    text-align: center;
+    background-color: coral;
+    width: 100%;
+    top: 0;
+    left:0;
+    padding: 10px;
+    position:fixed;
+    z-index: 1;
+}

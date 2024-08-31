@@ -1,0 +1,39 @@
+<body>
+<div class="col-md-6  offset-md-3">
+    <h3>UpdateUsers</h3>
+    <form (ngSubmit)="onSubmit()">
+        <div class="card">
+            <div class="card-body">
+        <div class="form-group">
+            <label for="floatingName"> Name</label>
+            <input type="text" name="cname" class="form-control" id="floatingName" [(ngModel)]="users.name"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingInput">Email Id</label>
+            <input type="email" name="Email Id" class="form-control" id="floatingInput" [(ngModel)]="users.emailId"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingNumber">Phone Number</label>
+            <input type="number" name="PhoneNumber" class="form-control" id="floatingNumber" [(ngModel)]="users.phoneNumber"  >
+        </div>
+   
+        <div class="form-group">
+            <label for="floatingpassword">password</label>
+            <input type="password" name="password" class="form-control" id="floatingpassword" [(ngModel)]="users.password"  >
+        </div>
+        <div class="form-group">
+            <label for="floatingPassword">Confirm Password</label>
+            <input type="password" name="confirmPassword" class="form-control" id="floatingPassword" [(ngModel)]=" users.confirmPassword"  >
+        </div>
+  
+        <pre></pre>
+        <button class="btn btn-success" type="submit">Submit</button>&nbsp;&nbsp;
+        <a href="" routerLink="/user-list" routerLinkActive="active">
+            <button class="btn btn-info" type="submit">back</button></a>
+        <pre></pre>
+        <pre></pre>
+    </div>
+</div>
+    </form>
+    </div>
+</body>

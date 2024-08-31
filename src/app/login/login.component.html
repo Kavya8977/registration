@@ -1,0 +1,38 @@
+<body style="background-image: url('../assets/login.jpeg'); background-size: cover; background-repeat: no-repeat; height: 100vh; display: flex; align-items: center; justify-content: center;">
+  <div class="card col-4">
+    <div class="card-header">
+      <h2>Login</h2>
+    </div>
+    <div class="card-body">
+      <form #loginform="ngForm" (ngSubmit)="loginUser()">
+        <small class="text-danger">{{msg}}</small>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" placeholder="Enter email" name="email" [(ngModel)]="emailId" required #email="ngModel"
+                 [class.is-invalid]="email.invalid && email.touched">
+          <div *ngIf="email.errors && (email.invalid && email.touched)">
+            <small class="text-danger">Invalid email.</small>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" class="form-control" placeholder="Enter password" name="password" [(ngModel)]="password" required>
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox" name="remember"> Remember me</label>
+        </div>
+        <button [disabled]="loginform.form.invalid" type="submit" class="btn btn-info">Login</button>
+      </form>
+      <div class="row">
+        <div class="col">
+          <a href="#" routerLink="/admin" routerLinkActive="active">Admin Log In</a>
+        </div>
+        <div class="col text-end">
+          <a href="/registration" routerLink="/registration" routerLinkActive="active">
+            New user? Register here
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

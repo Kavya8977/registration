@@ -1,0 +1,13 @@
+.vertical-nav {
+    background-color:azure; 
+    height: 100vh;
+    width: 250px;
+    position:fixed;
+    top: 60px;
+    left: 0;
+    overflow-y: auto;
+    padding-top: 10px;
+}
+body {
+    margin-left: 250px;
+}
